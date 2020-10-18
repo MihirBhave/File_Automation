@@ -28,11 +28,13 @@ class Setup:
         executables = [".exe",".bat",".ova"]
         pics = [".jpg",".jpeg",".png"]
         vids = [".mp3",".mp4",".avi"]
+        archived = [".zip",".tar.xz"]
 
         doc_files = []
         exe_files = []
         pic_files = []
         vid_files = []
+        arc_files = []
 
         for file_name in details:
             for extension in doc:
@@ -60,4 +62,9 @@ class Setup:
                     vid_files.append(file_name)
                     break
 
-        return pic_files,vid_files,exe_files,doc_files
+            for extension in archived:
+                if file_name.endswith(extension):
+                    arc_files.append(file_name)
+                    break
+
+        return pic_files,vid_files,exe_files,doc_files,arc_files

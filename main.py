@@ -24,12 +24,14 @@ def configure():
     execu = input("Executables : ")
     docu = input("Documents : ")
     vids = input("Videos : ")
+    archive = input("Archived : ")
 
     with open("details.json","w+") as file:
         details_dict = {"Documents":docu,
                         "Pictures":pic,
                         "Executables":execu,
                         "Videos":vids,
+                        "Archives":archive,
                         }
         json.dump(details_dict,file)
 
@@ -39,7 +41,7 @@ path = input("Enter the Target Path : ")
 file_organiser = Setup(path)
 file_organiser.list_files()
 
-pictures,videos,exes,documents = file_organiser.group()
+pictures,videos,exes,documents,archives = file_organiser.group()
 
 if os.path.isfile("details.json"):
     pass
@@ -54,11 +56,13 @@ with open("details.json","r") as file:
     create_dir(file_details["Videos"])
     create_dir(file_details["Pictures"])
     create_dir(file_details["Documents"])
+    create_dir(file_details["Archives"])
 
     pics_path = file_details["Pictures"]
     vids_path = file_details["Videos"]
     executables = file_details["Executables"]
     documents_path = file_details["Documents"]
+    archive_path = file_details["Archives"]
 
 for pics in pictures:
     os.chdir(path)
@@ -88,4 +92,11 @@ for document in documents:
     os.unlink(abs_path)
 print("[+] Done Processing Documents .... \n")
 
+for arc in archives:
+    os.chdir(path)
+    abs_path = os.path.abspath(arc)
+    shutil.copy(abs_path,os.path.join(archive_path,arc))
+    os.unlink(abs_path)
+
+print("[+] Done processing archives.... \n ")
 print("[+] All tasks completed Sucessfully!")
