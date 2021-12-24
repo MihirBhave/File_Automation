@@ -15,7 +15,7 @@ git clone https://github.com/MihirBhave/File_Automation
 ### Installation 
 All modules are in-built , hence nothing to install !
 
-### Starting 
+### Starting </br>
 To start the script , please type : 
 On Windows :
 ```bash
