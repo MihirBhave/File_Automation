@@ -1,7 +1,7 @@
 ### File Automation Program
   This program searches through the specified directory and then arranges the files according to their file types. 
 
-#Support </br>
+### Support </br>
 <a href="https://www.buymeacoffee.com/mihirbhave" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="30" width="150"></a></br>
 
 
