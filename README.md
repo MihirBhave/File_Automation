@@ -13,10 +13,7 @@ Firstly , please [fork my repository](https://github.com/MihirBhave/File_Automat
 git clone https://github.com/MihirBhave/File_Automation
 ```
 ### Installation 
-Just copy paste the below code: 
-```bash
-pip install requirements.txt
-```
+All modules are in-built , hence nothing to install !
 
 ### Purpose 
 This program basically Configures the paths of Documents,Pictures,Executables and Videos. After That, it asks your target Path.It takes a few seconds/minutes depending upon the size of the directory to reallocate the files.
