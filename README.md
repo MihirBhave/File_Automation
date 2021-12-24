@@ -1,9 +1,28 @@
-# File_Automation
-This is a  folder cleanup Program!
+# File Automation Program
+  This program searches through the specified directory and then arranges the files according to their file types. 
 
-This is Created by Mihir Bhave and I am new to GitHub so do tell me your recommendations!
+#Support
+[![ko-fi](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/mihirbhave)
 
-This program basically Configures the paths of Documents,Pictures,Executables and Videos.After That, it asks your target Path.The rest will be done by the program , automatically!
+**Author : Mihir Bhave **
 
-Whats New:
--->  Added the Archived File Types!
+#Getting Started
+Firstly , please [fork my repository](https://github.com/MihirBhave/File_Automation/fork) or :
+```bash
+git clone https://github.com/MihirBhave/File_Automation
+```
+#Installation 
+Just copy paste the below code: 
+```bash
+pip install requirements.txt
+```
+
+#Purpose 
+This program basically Configures the paths of Documents,Pictures,Executables and Videos. After That, it asks your target Path.It takes a few seconds/minutes depending upon the size of the directory to reallocate the files.
+
+#Contributions
+You are welcome to contribute and highlight the limitations and bugs in this program !
+
+
+
+
