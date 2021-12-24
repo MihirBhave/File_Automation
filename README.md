@@ -15,6 +15,17 @@ git clone https://github.com/MihirBhave/File_Automation
 ### Installation 
 All modules are in-built , hence nothing to install !
 
+### Starting 
+To start the script , please type : 
+On Windows :
+```bash
+python main.py
+```
+On Mac or Linux :
+```bash
+python3 main.py
+```
+
 ### Purpose 
 This program basically Configures the paths of Documents,Pictures,Executables and Videos. After That, it asks your target Path.It takes a few seconds/minutes depending upon the size of the directory to reallocate the files.
 
