@@ -1,27 +1,27 @@
-# File Automation Program
+### File Automation Program
   This program searches through the specified directory and then arranges the files according to their file types. 
 
 #Support </br>
 <a href="https://www.buymeacoffee.com/mihirbhave" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="30" width="150"></a></br>
 
 
-**Author : Mihir Bhave **
+** Author : Mihir Bhave **
 
-#Getting Started
+### Getting Started
 Firstly , please [fork my repository](https://github.com/MihirBhave/File_Automation/fork) or :
 ```bash
 git clone https://github.com/MihirBhave/File_Automation
 ```
-#Installation 
+### Installation 
 Just copy paste the below code: 
 ```bash
 pip install requirements.txt
 ```
 
-#Purpose 
+### Purpose 
 This program basically Configures the paths of Documents,Pictures,Executables and Videos. After That, it asks your target Path.It takes a few seconds/minutes depending upon the size of the directory to reallocate the files.
 
-#Contributions
+### Contributions
 You are welcome to contribute and highlight the limitations and bugs in this program !
 
 
