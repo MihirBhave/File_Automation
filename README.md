@@ -15,8 +15,8 @@ git clone https://github.com/MihirBhave/File_Automation
 ### Installation 
 All modules are in-built , hence nothing to install !
 
-### Starting </br>
-To start the script , please type : 
+### Starting 
+To start the script , please type : </br>
 On Windows :
 ```bash
 python main.py
