@@ -2,7 +2,8 @@
   This program searches through the specified directory and then arranges the files according to their file types. 
 
 #Support
-[![ko-fi](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/mihirbhave)
+<a href="https://www.buymeacoffee.com/mihirbhave" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 
 **Author : Mihir Bhave **
 
