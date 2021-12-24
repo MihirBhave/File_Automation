@@ -5,7 +5,7 @@
 <a href="https://www.buymeacoffee.com/mihirbhave" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="30" width="150"></a></br>
 
 
-** Author : Mihir Bhave **
+**Author : Mihir Bhave**
 
 ### Getting Started
 Firstly , please [fork my repository](https://github.com/MihirBhave/File_Automation/fork) or :
